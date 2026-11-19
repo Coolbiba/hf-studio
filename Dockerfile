@@ -34,6 +34,5 @@ ENV PATH="/app/.venv/bin:$PATH" \
     DATABASE_URL="sqlite+aiosqlite:////data/hf_studio.db" \
     STORAGE_DIR="/data/files" \
     PORT=3000
-VOLUME /data
 EXPOSE 3000
 CMD ["hf-studio", "cloud"]
